@@ -188,13 +188,13 @@ body {
   flex-direction: column;
   flex: 1;
   width: 423px;
+  margin-right: 50px;
 }
 .class-img-centre {
   flex: 2;
   width: 830px;
   background: url(image);
   filter: drop-shadow(0px 0px 10px #00d8a4) drop-shadow(0px 0px 15px #00d8a4);
-
 }
 .class-text {
   font-family: "DotGothic16";
@@ -203,7 +203,20 @@ body {
   font-size: 36px;
   text-align: right;
   color: #ffffff;
+  margin-right: 90px;
+  margin-top: -70px;
 }
+.class-text-1 {
+  font-family: "DotGothic16";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: right;
+  color: #ffffff;
+  margin-right: 90px;
+  margin-top: -140px;
+}
+
 .class-text-name {
   font-family: "Gilroy";
   font-style: normal;
@@ -214,6 +227,8 @@ body {
   color: #ffffff;
   margin-top: 23px;
   margin-bottom: 23px;
+  margin-right: 90px;
+
 }
 .class-text-info {
   font-family: "Gilroy";
@@ -222,6 +237,7 @@ body {
   font-size: 17px;
   text-align: right;
   color: #ffffff;
+  margin-right: 90px;
 }
 .booking {
   position: relative;
@@ -337,6 +353,7 @@ body {
   margin-right: 121px;
 }
 .background-img {
+  margin-top: 10px;
   width: 1920px;
   height: 540px;
   background-image: url(/img/background-img.png);
@@ -586,6 +603,7 @@ margin-left: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .copyright-img {
   display: flex;
